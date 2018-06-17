@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.victor.coordinatorlayoutdemo">
+    package="com.victor.c_hlg">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -20,7 +20,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.SplashActivity"
+            android:name="com.victor.c_hlg.activity.SplashActivity"
             android:theme="@style/NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,39 +31,39 @@
         <!--设置app badge-->
         <activity
             android:exported="true"
-            android:name=".activity.AppBadgeActivity"
+            android:name="com.victor.c_hlg.activity.AppBadgeActivity"
             android:theme="@style/NoActionBar">
         </activity>
         <service
-            android:name=".Service.BadgeIntentService"
+            android:name="com.victor.c_hlg.Service.BadgeIntentService"
             android:exported="false"></service>
 
         <activity
-            android:name=".activity.PickerActivity"
+            android:name="com.victor.c_hlg.activity.PickerActivity"
             android:theme="@style/NoActionBar">
         </activity>
         <!--级联选项-->
 
         <activity
             android:label="级联"
-            android:name=".activity.JsonDataActivity"
+            android:name="com.victor.c_hlg.activity.JsonDataActivity"
             android:theme="@style/NoActionBar"></activity>
         <!--图片-->
         <activity
             android:label="图片"
-            android:name=".activity.PicActivity"
+            android:name="com.victor.c_hlg.activity.PicActivity"
             android:theme="@style/NoActionBar"></activity>
 
         <activity
-            android:name=".activity.PieActivity"
+            android:name="com.victor.c_hlg.activity.PieActivity"
             android:label="图标"
             android:theme="@style/NoActionBar">
 
         </activity>
-        <activity android:name=".activity.MainActivity"></activity>
-        <activity android:name=".activity.HomeActivity"></activity>
-        <activity android:name=".activity.CollapsingActivity"></activity>
-        <activity android:name=".activity.StickyActivity"></activity>
+        <activity android:name="com.victor.c_hlg.activity.MainActivity"></activity>
+        <activity android:name="com.victor.c_hlg.activity.HomeActivity"></activity>
+        <activity android:name="com.victor.c_hlg.activity.CollapsingActivity"></activity>
+        <activity android:name="com.victor.c_hlg.activity.StickyActivity"></activity>
         <activity
             android:name="com.google.zxing.activity.CaptureActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"

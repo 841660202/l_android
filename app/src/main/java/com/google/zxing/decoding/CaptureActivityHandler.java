@@ -24,7 +24,7 @@ import com.google.zxing.BarcodeFormat;
 import com.google.zxing.Result;
 import com.google.zxing.activity.CaptureActivity;
 import com.google.zxing.camera.CameraManager;
-import com.victor.coordinatorlayoutdemo.R;
+import com.victor.c_hlg.R;
 
 import java.util.Vector;
 

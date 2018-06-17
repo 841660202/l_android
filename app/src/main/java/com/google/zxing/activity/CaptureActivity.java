@@ -35,11 +35,11 @@ import com.google.zxing.decoding.CaptureActivityHandler;
 import com.google.zxing.decoding.DecodeFile;
 import com.google.zxing.decoding.DecodeFormatManager;
 
-import com.victor.coordinatorlayoutdemo.R;
-import com.victor.coordinatorlayoutdemo.constants.Extras;
-import com.victor.coordinatorlayoutdemo.utils.SnackbarUtils;
-import com.victor.coordinatorlayoutdemo.utils.binding.Bind;
-import com.victor.coordinatorlayoutdemo.utils.binding.ViewBinder;
+import com.victor.c_hlg.R;
+import com.victor.c_hlg.constants.Extras;
+import com.victor.c_hlg.utils.SnackbarUtils;
+import com.victor.c_hlg.utils.binding.Bind;
+import com.victor.c_hlg.utils.binding.ViewBinder;
 
 import java.io.IOException;
 import java.util.Hashtable;

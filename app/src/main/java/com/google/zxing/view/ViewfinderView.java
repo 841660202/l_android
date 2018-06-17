@@ -25,7 +25,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 import com.google.zxing.camera.CameraManager;
-import com.victor.coordinatorlayoutdemo.R;
+import com.victor.c_hlg.R;
 
 
 /**
