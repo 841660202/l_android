@@ -20,4 +20,14 @@
     <color name="viewfinder_frame">@color/colorPrimary</color>
     <color name="viewfinder_laser">#FF03A9F4</color>
     <color name="viewfinder_laser_transparent">#0003A9F4</color>
+
+
+    <!--图-->
+    <color name="bar_grey">#393a3e</color>
+    <color name="color_f6">#f6f6f6</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_fa">#fafafa</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="color_c51">#f94c51</color>
+    <color name="color_green">#43c117</color>
 </resources>
