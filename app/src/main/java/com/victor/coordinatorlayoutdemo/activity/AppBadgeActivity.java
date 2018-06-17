@@ -9,6 +9,7 @@ import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Vibrator;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -100,6 +101,23 @@ public class AppBadgeActivity extends Activity {
 
         TextView textViewHomePackage = (TextView) findViewById(R.id.textViewHomePackage);
         textViewHomePackage.setText("launcher:" + currentHomePackage);
+
+
+        Button open_app = (Button) findViewById(R.id.open_app);
+        open_app.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // 通过包名获取要跳转的app，创建intent对象
+                Intent intent = getPackageManager().getLaunchIntentForPackage("com.tencent.mobileqq");
+// 这里如果intent为空，就说名没有安装要跳转的应用嘛
+                if (intent != null) {
+                    startActivity(intent);
+                } else {
+                    // 没有安装要跳转的app应用，提醒一下
+                }
+
+            }
+        });
     }
 
 

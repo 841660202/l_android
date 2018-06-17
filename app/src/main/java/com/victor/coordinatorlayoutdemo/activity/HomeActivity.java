@@ -64,20 +64,32 @@ public class HomeActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
                     case 1:
-                        Intent intent2 = new Intent(
+                        Intent intent1 = new Intent(
                                 HomeActivity.this,
                                 PieActivity.class
                         );
-                        startActivity(intent2);
+                        startActivity(intent1);
                         break;
                     case 2:
-
+                        Intent intent2 = new Intent(
+                                HomeActivity.this,
+                                PicActivity.class
+                        );
+                        startActivity(intent2);
                         break;
                     case 3:
-
+                        Intent intent3 = new Intent(
+                                HomeActivity.this,
+                                PickerActivity.class
+                        );
+                        startActivity(intent3);
                         break;
                     case 4:
-
+                        Intent intent4 = new Intent(
+                                HomeActivity.this,
+                                AppBadgeActivity.class
+                        );
+                        startActivity(intent4);
                         break;
                     default:
 
