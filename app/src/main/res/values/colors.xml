@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dark_gray">#484848</color>
+    <color name="blue">#FF078CDF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="translucent_70p">#B3000000</color>
+    <color name="translucent_ffp">#6f565555</color>
+    <color name="translucent">#00000000</color>
+    <color name="splash_bg_color">#A69F84</color>
+
+
+    <color name="black99">#999999</color>
+
+    <color name="black">@android:color/black</color>
+    <!--zxing-->
+    <color name="viewfinder_mask">#1f000000</color>
+    <color name="viewfinder_frame">@color/colorPrimary</color>
+    <color name="viewfinder_laser">#FF03A9F4</color>
+    <color name="viewfinder_laser_transparent">#0003A9F4</color>
+</resources>

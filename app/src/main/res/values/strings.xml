@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">行</string>
+    <string name="item">item</string>
+
+    <string name="tips">温馨提示</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="loading">请稍候…</string>
+    <string name="no_history">暂时没有记录</string>
+    <string name="analyze_fail">抱歉，未在图中发现条码！</string>
+</resources>
